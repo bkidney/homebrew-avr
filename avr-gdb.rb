@@ -23,9 +23,5 @@ class AvrGdb < Formula
 
     system "make"
     system "make install"
-
-    File.unlink "#{prefix}/share/info/bfd.info",
-                "#{prefix}/share/info/configure.info",
-                "#{prefix}/share/info/standards.info"
   end
 end
